@@ -4214,7 +4214,7 @@
   },
   "projectFileDependencyGroups": {
     "": [
-      "Microsoft.AspNet.Hosting.Abstractions >= 1.0.0-rc1-15872",
+      "Microsoft.AspNet.Hosting.Abstractions >= 1.0.0-*",
       "Microsoft.AspNet.Razor.Runtime >= 4.0.0-*"
     ],
     ".NETPlatform,Version=v5.4": []

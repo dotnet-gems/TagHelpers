@@ -1,12 +1,12 @@
 ﻿{
-  "version": "1.0.0-*",
-  "description": "HtmlMinifier Class Library",
+  "version": "1.0.0-alpha-*",
+  "description": "Html Minifier Tag Helper",
   "authors": [ "bart" ],
-  "tags": [ "" ],
-  "projectUrl": "",
-  "licenseUrl": "",
+  "tags": [ "TagHelper, Html, Minify, Html Minify, Html Minifier" ],
+  "projectUrl": "https://github.com/dotnet-gems/TagHelpers/src/HtmlMinifier",
+  "licenseUrl": "https://github.com/dotnet-gems/TagHelpers/blob/dev/LICENSE",
   "dependencies": {
-    "Microsoft.AspNet.Hosting.Abstractions": "1.0.0-rc1-15872",
+    "Microsoft.AspNet.Hosting.Abstractions": "1.0.0-*",
     "Microsoft.AspNet.Razor.Runtime": "4.0.0-*"
   },
   "frameworks": {
