@@ -1,0 +1,15 @@
+﻿{
+  "version": "1.0.0-*",
+  "description": "HtmlMinifier Class Library",
+  "authors": [ "bart" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+  "dependencies": {
+    "Microsoft.AspNet.Hosting.Abstractions": "1.0.0-rc1-15872",
+    "Microsoft.AspNet.Razor.Runtime": "4.0.0-*"
+  },
+  "frameworks": {
+    "dotnet5.4": { }
+  }
+}
