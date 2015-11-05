@@ -1,0 +1,18 @@
+﻿{
+  "version": "1.0.0-alpha-*",
+  "description": "Partial View Tag Helper",
+  "authors": [ "bart" ],
+  "tags": [ "Partial Views, Tag Helper" ],
+  "projectUrl": "https://github.com/dotnet-gems/TagHelpers/src/PartialView",
+  "licenseUrl": "https://github.com/dotnet-gems/TagHelpers/blob/dev/LICENSE",
+
+  "frameworks": {
+    "dotnet5.4": {
+      "dependencies": {
+        "Microsoft.AspNet.Mvc.Razor": "6.0.0-*",
+        "Microsoft.AspNet.Mvc.ViewFeatures": "6.0.0-*",
+        "Microsoft.AspNet.Razor.Runtime": "4.0.0-*"
+      }
+    }
+  }
+}
