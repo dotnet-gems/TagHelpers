@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{161CD3E5-6380-477F-ADBE-AD95EFE655F7}"
 EndProject
@@ -12,7 +12,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	EndProjectSection
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "HtmlMinifier", "src\HtmlMinifier\HtmlMinifier.xproj", "{1DCE9E26-7217-42EF-AC22-8E77BA728702}"
+EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "PartialView", "src\PartialView\PartialView.xproj", "{C964C3B9-ADE0-448A-B56E-D37A69F27D5E}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SvgIcons", "src\SvgIcons\SvgIcons.xproj", "{B0C98346-8A05-41DF-A95D-B69EA572AA91}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{05F10BBD-7E31-4E2E-990D-69C4507524DF}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "IconTagHelperSample", "samples\IconTagHelperSample\IconTagHelperSample.xproj", "{0CDA4B7C-DAC5-48B9-B54F-FDCE24EEE0CD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -28,6 +35,14 @@ Global
 		{C964C3B9-ADE0-448A-B56E-D37A69F27D5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C964C3B9-ADE0-448A-B56E-D37A69F27D5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C964C3B9-ADE0-448A-B56E-D37A69F27D5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0C98346-8A05-41DF-A95D-B69EA572AA91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0C98346-8A05-41DF-A95D-B69EA572AA91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0C98346-8A05-41DF-A95D-B69EA572AA91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0C98346-8A05-41DF-A95D-B69EA572AA91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CDA4B7C-DAC5-48B9-B54F-FDCE24EEE0CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CDA4B7C-DAC5-48B9-B54F-FDCE24EEE0CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CDA4B7C-DAC5-48B9-B54F-FDCE24EEE0CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CDA4B7C-DAC5-48B9-B54F-FDCE24EEE0CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -35,5 +50,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{1DCE9E26-7217-42EF-AC22-8E77BA728702} = {161CD3E5-6380-477F-ADBE-AD95EFE655F7}
 		{C964C3B9-ADE0-448A-B56E-D37A69F27D5E} = {161CD3E5-6380-477F-ADBE-AD95EFE655F7}
+		{B0C98346-8A05-41DF-A95D-B69EA572AA91} = {161CD3E5-6380-477F-ADBE-AD95EFE655F7}
+		{0CDA4B7C-DAC5-48B9-B54F-FDCE24EEE0CD} = {05F10BBD-7E31-4E2E-990D-69C4507524DF}
 	EndGlobalSection
 EndGlobal
