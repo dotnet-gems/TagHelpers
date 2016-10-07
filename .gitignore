@@ -194,3 +194,6 @@ FakesAssemblies/
 
 # Visual Studio 6 workspace options file
 *.opt
+/samples/IconTagHelperSample/wwwroot/lib/font-awesome-svg-png
+/samples/IconTagHelperSample/project.lock.json
+/samples/IconTagHelperSample/Properties/launchSettings.json
