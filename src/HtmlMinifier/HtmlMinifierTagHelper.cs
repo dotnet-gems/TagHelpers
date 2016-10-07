@@ -1,8 +1,8 @@
-﻿using Microsoft.AspNet.Razor.TagHelpers;
-using System.Linq;
+﻿using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AspNet.Hosting;
 using System;
+using Microsoft.AspNetCore.Razor.TagHelpers;
+using Microsoft.AspNetCore.Hosting;
 
 namespace DotNetGems.TagHelpers
 {
